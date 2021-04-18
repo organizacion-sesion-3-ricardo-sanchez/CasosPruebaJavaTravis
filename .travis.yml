@@ -3,4 +3,5 @@ jdk:
   - openjdk11
 script:
   - java --version
-  - ./src/tests/TestCalcularMedia.java
+  - .mvnw clean install
+  - .mvnw test
