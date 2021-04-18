@@ -12,7 +12,6 @@ import codi.CaixaBlanca;
 import org.junit.Assert;
 import org.junit.Assume;
 
-
 @RunWith (value = Parameterized.class)
 public class TestCalcularMedia {
     enum TipoClase {valida, eNegativo};
